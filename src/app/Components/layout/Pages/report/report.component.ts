@@ -40,7 +40,7 @@ export class ReportComponent implements OnInit {
     'product',
     'amount',
     'price',
-    'total product',
+    'totalProduct',
   ];
   dataSaleReport = new MatTableDataSource(this.salesListReport);
   @ViewChild(MatPaginator) paginationTable!: MatPaginator;
